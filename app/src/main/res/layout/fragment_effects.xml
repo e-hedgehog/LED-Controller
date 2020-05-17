@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:background="@color/background">
+
+    <TextView
+        android:id="@+id/rainbow_field"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/rainbow_label"
+        android:textSize="16sp"
+        android:textColor="@color/textColor"
+        app:layout_constraintEnd_toStartOf="@+id/rainbow_switch"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/rainbow_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:track="@drawable/switch_track"
+        android:switchMinWidth="@dimen/switch_track_width"
+        app:layout_constraintBottom_toBottomOf="@+id/rainbow_field"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/rainbow_field" />
+
+    <TextView
+        android:id="@+id/strobe_field"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/strobe_label"
+        android:textSize="16sp"
+        android:textColor="@color/textColor"
+        app:layout_constraintEnd_toStartOf="@+id/strobe_switch"
+        app:layout_constraintStart_toStartOf="@id/rainbow_field"
+        app:layout_constraintTop_toBottomOf="@id/rainbow_field" />
+
+    <Switch
+        android:id="@+id/strobe_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:track="@drawable/switch_track"
+        android:switchMinWidth="@dimen/switch_track_width"
+        app:layout_constraintBottom_toBottomOf="@id/strobe_field"
+        app:layout_constraintEnd_toEndOf="@id/rainbow_switch"
+        app:layout_constraintStart_toStartOf="@+id/rainbow_switch"
+        app:layout_constraintTop_toTopOf="@+id/strobe_field" />
+
+    <TextView
+        android:id="@+id/juggle_field"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/juggle_label"
+        android:textSize="16sp"
+        android:textColor="@color/textColor"
+        app:layout_constraintEnd_toStartOf="@+id/juggle_switch"
+        app:layout_constraintStart_toStartOf="@id/strobe_field"
+        app:layout_constraintTop_toBottomOf="@id/strobe_field" />
+
+    <Switch
+        android:id="@+id/juggle_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:track="@drawable/switch_track"
+        android:switchMinWidth="@dimen/switch_track_width"
+        app:layout_constraintBottom_toBottomOf="@+id/juggle_field"
+        app:layout_constraintEnd_toEndOf="@id/strobe_switch"
+        app:layout_constraintStart_toStartOf="@id/strobe_switch"
+        app:layout_constraintTop_toTopOf="@+id/juggle_field" />
+
+    <TextView
+        android:id="@+id/random_color_field"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/random_color_label"
+        android:textSize="16sp"
+        android:textColor="@color/textColor"
+        app:layout_constraintEnd_toStartOf="@+id/random_color_switch"
+        app:layout_constraintStart_toStartOf="@id/juggle_field"
+        app:layout_constraintTop_toBottomOf="@id/juggle_field" />
+
+    <Switch
+        android:id="@+id/random_color_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:track="@drawable/switch_track"
+        android:switchMinWidth="@dimen/switch_track_width"
+        app:layout_constraintBottom_toBottomOf="@id/random_color_field"
+        app:layout_constraintEnd_toEndOf="@id/juggle_switch"
+        app:layout_constraintStart_toStartOf="@id/juggle_switch"
+        app:layout_constraintTop_toTopOf="@+id/random_color_field" />
+
+    <TextView
+        android:id="@+id/bpm_field"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/bpm_label"
+        android:textSize="16sp"
+        android:textColor="@color/textColor"
+        app:layout_constraintEnd_toStartOf="@+id/bpm_switch"
+        app:layout_constraintStart_toStartOf="@id/random_color_field"
+        app:layout_constraintTop_toBottomOf="@id/random_color_field" />
+
+    <Switch
+        android:id="@+id/bpm_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:track="@drawable/switch_track"
+        android:switchMinWidth="@dimen/switch_track_width"
+        app:layout_constraintBottom_toBottomOf="@id/bpm_field"
+        app:layout_constraintEnd_toEndOf="@id/random_color_switch"
+        app:layout_constraintStart_toStartOf="@id/random_color_switch"
+        app:layout_constraintTop_toTopOf="@+id/bpm_field" />
+
+    <TextView
+        android:id="@+id/pride_field"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/pride_label"
+        android:textSize="16sp"
+        android:textColor="@color/textColor"
+        app:layout_constraintEnd_toStartOf="@+id/pride_switch"
+        app:layout_constraintStart_toStartOf="@id/bpm_field"
+        app:layout_constraintTop_toBottomOf="@id/bpm_field" />
+
+    <Switch
+        android:id="@+id/pride_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:track="@drawable/switch_track"
+        android:switchMinWidth="@dimen/switch_track_width"
+        app:layout_constraintBottom_toBottomOf="@id/pride_field"
+        app:layout_constraintEnd_toEndOf="@id/bpm_switch"
+        app:layout_constraintStart_toStartOf="@id/bpm_switch"
+        app:layout_constraintTop_toTopOf="@+id/pride_field" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

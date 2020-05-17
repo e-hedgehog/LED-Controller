@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="colorPresets">
+        <item>@color/ColorPreset1</item>
+        <item>@color/ColorPreset2</item>
+        <item>@color/ColorPreset3</item>
+        <item>@color/ColorPreset4</item>
+        <item>@color/ColorPreset5</item>
+        <item>@color/ColorPreset6</item>
+        <item>@color/ColorPreset7</item>
+        <item>@color/ColorPreset8</item>
+        <item>@color/ColorPreset9</item>
+        <item>@color/ColorPreset10</item>
+        <item>@color/ColorPreset11</item>
+        <item>@color/ColorPreset12</item>
+        <item>@color/ColorPreset13</item>
+        <item>@color/ColorPreset14</item>
+        <item>@color/ColorPreset15</item>
+        <item>@color/ColorPreset16</item>
+        <item>@color/ColorPreset17</item>
+        <item>@color/ColorPreset18</item>
+        <item>@color/ColorPreset19</item>
+        <item>@color/ColorPreset20</item>
+        <item>@color/ColorPreset21</item>
+        <item>@color/ColorPreset22</item>
+        <item>@color/ColorPreset23</item>
+        <item>@color/ColorPreset24</item>
+<!--        <item>@color/ColorPreset25</item>-->
+<!--        <item>@color/ColorPreset26</item>-->
+    </array>
+</resources>

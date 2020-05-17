@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LED-Controller</string>
+    <string name="color_presets_title">Color presets</string>
+    <string name="effects_title">Effects</string>
+    <string name="color_picker_title">Color Picker</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="rainbow_label">Rainbow</string>
+    <string name="strobe_label">Strobe</string>
+    <string name="juggle_label">Juggle</string>
+    <string name="random_color_label">Random sparkles</string>
+    <string name="bpm_label">BPM Pulsation</string>
+    <string name="pride_label">Pride</string>
+</resources>
